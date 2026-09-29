@@ -1,0 +1,27 @@
+{
+  "name": "bastard-coin",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bastard Coin (BSTRD) contract source and local tests",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "npm run compile && node --test test/token.test.mjs"
+  },
+  "overrides": {
+    "solc": {
+      "tmp": "0.2.7"
+    }
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "4.2.0",
+    "@openzeppelin/contracts": "5.6.1",
+    "ethers": "6.17.0",
+    "hardhat": "3.18.0",
+    "solc": "0.8.37"
+  }
+}
