@@ -1,0 +1,28 @@
+{
+  "network": "Arbitrum One",
+  "chainId": 42161,
+  "contractAddress": "0x39bDbB2a4419C33C7032bDa8AFc604C9Ef9d2A86",
+  "deploymentDateUTC": "2026-09-28",
+  "transactionHash": "0x3902a90770d6ff1a7e41794a234313060c1c7b016d6ebae48e5ef90db107b2c4",
+  "blockNumber": 509845723,
+  "constructorArguments": {
+    "tokenName": "Bastard Coin",
+    "tokenSymbol": "BSTRD",
+    "initialSupplyBaseUnits": "1000000000000000000000000",
+    "initialHolder": "0x25Ca77E972f108F2cC359d771DF067c9337d94f5"
+  },
+  "decimals": 18,
+  "totalSupplyTokens": "1000000",
+  "compiler": "0.8.37+commit.f401782d",
+  "optimizer": { "enabled": true, "runs": 200 },
+  "evmVersion": "cancun",
+  "sourceVerification": {
+    "service": "Sourcify",
+    "creationMatch": "exact_match",
+    "runtimeMatch": "exact_match",
+    "verifiedAtUTC": "2026-09-28T22:37:56Z",
+    "url": "https://repo.sourcify.dev/42161/0x39bDbB2a4419C33C7032bDa8AFc604C9Ef9d2A86"
+  },
+  "uniswapV2Pool": "0x34Dc72D488DAf9dbae02b962Ba0A9D87357142fE",
+  "note": "Public deployment identifiers. This file is not a live balance or liquidity snapshot."
+}
