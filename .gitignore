@@ -1,0 +1,12 @@
+node_modules/
+artifacts/
+cache/
+coverage/
+.env
+.env.*
+secrets/
+*.key
+*.pem
+*.log
+.DS_Store
+Thumbs.db
